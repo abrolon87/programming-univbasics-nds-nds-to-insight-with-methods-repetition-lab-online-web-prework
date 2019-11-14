@@ -30,7 +30,7 @@ def list_of_directors(source)
 
   while i < source.length do
     names << source[i][:name] #extracting :name from i from source into names[]
-    i += 1  
+    i += 1
   end
 
   names  #calling to updated names
